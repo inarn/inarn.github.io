@@ -1,0 +1,51 @@
+/*Nigga, is you gay?*/
+@charset "UTF-8";
+
+@font-face {
+	font-family: VGA;
+	src: url(Perfect_DOS_VGA_437.ttf);
+}
+
+html {
+	height: 100%;
+
+	}
+body {
+	background-color: #000;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	color: #00cc00;
+	}
+
+.container {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-50px); }
+}
+
+.middle-finger {
+	text-align: center;
+	font-size: 25rem;
+	color: #00cc00;
+	animation: bounce 0.5s infinite alternate;
+	/*position: absolute;
+	left: 0;
+	top: 30%;
+	width: 100%;
+	height: auto;*/
+}
+
+.quote {
+	font-size: 3rem;
+	font-family: VGA, "Times New Roman", Times, serif;
+	padding: 20px;
+	text-align: center;
+	}
