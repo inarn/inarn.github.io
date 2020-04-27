@@ -45,7 +45,7 @@ body {
 
 .quote {
 	font-size: 3rem;
-	font-family: VGA, "Times New Roman", Times, serif;
+	font-family: VGA, "Courier New", Courier, monospace;
 	padding: 20px;
 	text-align: center;
 	}
