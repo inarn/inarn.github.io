@@ -16,6 +16,7 @@ body {
 	width: 100%;
 	margin: 0;
 	color: #00cc00;
+	font-size: 100%;
 	}
 
 .container {
@@ -36,11 +37,6 @@ body {
 	font-size: 25rem;
 	color: #00cc00;
 	animation: bounce 0.5s infinite alternate;
-	/*position: absolute;
-	left: 0;
-	top: 30%;
-	width: 100%;
-	height: auto;*/
 }
 
 .quote {
